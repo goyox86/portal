@@ -20,7 +20,7 @@ defmodule Portal do
   end
 
   @doc """
-  Starts transfering `data` from `left` top `right`.
+  Starts transfering `data` from `left` to `right`.
   """
   def transfer(left, right, data) do
     for item <- data do
